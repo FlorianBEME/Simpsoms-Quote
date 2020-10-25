@@ -1,5 +1,4 @@
 function fetchSimpsomJSON() {
-  // Feel free to download this HTML and edit it, to use another Pokemon ID
   const url = `https://simpsons-quotes-api.herokuapp.com/quotes`;
   axios
     .get(url)
